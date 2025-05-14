@@ -5,6 +5,8 @@ def segregate_text(para):
     number = re.findall(r'\d', para)
     special_char = re.findall(r'[^A-Za-z0-9\s]', para)
     return words, number, special_char
+
+
 paragraph = "Hello, my age is 20! I have $100 and 2 dogs."
 
 words, number, special_char = segregate_text(paragraph)
