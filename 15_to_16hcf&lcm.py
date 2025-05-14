@@ -1,4 +1,4 @@
-# WAP find LCM and HCF 
+#15  WAP find LCM and HCF 
 num = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 a = num
@@ -10,7 +10,7 @@ hcf = num
 lcm = (a*b)//hcf
 print(f"HCF is {hcf} and LCM is {lcm}")
 
-# WAP to find roots of quadratic equation 
+#16 WAP to find roots of quadratic equation 
 print("Enter coefficients of quadratic equation ax^2 + bx + c = 0")
 a = int(input("Enter a: "))
 b = int(input("Enter b: "))

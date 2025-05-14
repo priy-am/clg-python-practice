@@ -1,4 +1,4 @@
-# WAP to find number is prime or not 
+# 17 WAP to find number is prime or not 
 num = int(input("Enter a number: "))
 flag = 0
 for i in range(2, num//2+1):
@@ -10,7 +10,7 @@ if flag == 0:
 else:
     print("Not prime")
 
-#  WAP to display grade obtained from 5 subjects marke in final exam of a student 
+#18  WAP to display grade obtained from 5 subjects marke in final exam of a student 
 sub1 = int(input("Enter marks of subject 1: "))
 sub2 = int(input("Enter marks of subject 2: "))
 sub3 = int(input("Enter marks of subject 3: "))

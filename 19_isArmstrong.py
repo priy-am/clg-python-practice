@@ -1,4 +1,4 @@
-# WAP to check whether a number is armstrong or not 
+#19  WAP to check whether a number is armstrong or not 
 num = int(input("Enter a number: "))
 # what is armstrong number? 153 -> 1^3 + 5^3 + 3^3 = 153
 # 153 -> 3 digits
